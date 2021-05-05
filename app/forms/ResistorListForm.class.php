@@ -2,7 +2,7 @@
 
 namespace app\forms;
 
-class PersonEditForm {
+class ResistorListForm {
 	public $id;
 	public $volt1;
 	public $volt2;

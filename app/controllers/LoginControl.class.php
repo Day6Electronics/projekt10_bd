@@ -79,7 +79,8 @@ class LoginControl{
 		getSmarty()->assign('form',$this->form);
                 getSmarty()->assign('page_description','Kalkulator umożliwiający dobranie odpowiedniego rezystora do diody LED.');
                 getSmarty()->assign('button','Do logowania');
-                getSmarty()->assign('menubtn','Logowanie');
+                getSmarty()->assign('menubtn1','Logowanie');
+                getSmarty()->assign('menubtn2','');
                 getSmarty()->assign('menuLogout','');
                 getSmarty()->assign('author','Zaprojektowany przez: Dawid Gruszecki');
 		getSmarty()->display('loginView.tpl');		

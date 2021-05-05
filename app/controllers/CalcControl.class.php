@@ -56,6 +56,8 @@ class CalcControl {
                     getMessages()->addInfo('Wykonano obliczenia.');
                 }
                 
+                action_resistorSave();
+                
                 $this->generateView();
         }
         
@@ -76,7 +78,8 @@ class CalcControl {
                 getSmarty()->assign('form',$this->form);
                 getSmarty()->assign('resistor',$this->resistor);
                 getSmarty()->assign('button','Do kalkulatora');
-                getSmarty()->assign('menubtn','Kalkulator');
+                getSmarty()->assign('menubtn1','Kalkulator');
+                getSmarty()->assign('menubtn2','Lista wyników');
                 getSmarty()->assign('menuLogout','Wyloguj');
 
                 getSmarty()->display('calcView.tpl');

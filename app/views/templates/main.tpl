@@ -24,7 +24,8 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.php">Strona główna</a></li>
-                                        <li><a href="#app_content">{$menubtn}</a></li>
+                                        <li><a href="#app_content">{$menubtn1}</a></li>
+                                        <li><a href="#app_content">{$menubtn2}</a></li>
                                         <li><a href="{$conf->action_url}logout">{$menuLogout}</a></li>
 				</ul>
 			</nav>

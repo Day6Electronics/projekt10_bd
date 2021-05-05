@@ -10,9 +10,9 @@ $conf->action_root = $conf->app_root.'/control.php?action=';
 # konfiguracja bazy danych (wymagane)
 $conf->db_type = 'mysql';
 $conf->db_server = 'localhost';
-$conf->db_name = 'simpledb';
+$conf->db_name = 'rezystory';
 $conf->db_user = 'root';
-$conf->db_pass = 'xyz';
+$conf->db_pass = '';
 $conf->db_charset = 'utf8';
 
 # konfiguracja bazy danych (opcjonalna)
